@@ -14,5 +14,11 @@ export class AppController {
   @Get ('item')
   getObject ():any{
     return this.appService.getObject()
+  } 
+
+  @Get ('produto')
+  getIndustrial ():any{
+    return this.appService.getIndustrial()
   }
+
 }
